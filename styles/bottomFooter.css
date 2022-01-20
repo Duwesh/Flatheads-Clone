@@ -1,8 +1,7 @@
 /* footer section  */
 .footer {
-  width: 80vw;
   margin: 10% auto;
-  /* border: 1px solid black; */
+  font-size: 14px;
 }
 
 /* service items content area  */
@@ -19,6 +18,11 @@
   width: 20%;
 }
 
+section {
+  width: 80%;
+  margin: auto;
+}
+
 /* service content image  */
 .service-item > img {
   width: 150px;
@@ -31,7 +35,11 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
+hr {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
 /* star rating icons  */
 .star-icons {
   display: flex;
@@ -41,7 +49,7 @@
 .ratings-header > p {
   text-align: center;
   font-size: 1rem;
-  line-height: 1.2rem;
+  /* line-height: 1.2rem; */
   font-weight: 500;
   margin-top: 7px;
 }
@@ -50,18 +58,27 @@
 .footer-collapsible-heading {
   text-transform: uppercase;
   font-weight: 500;
+  letter-spacing: 3px;
+  /* letter-spacing: 2cm; */
+}
+
+.footer-collapsible {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 /* footer list or multiple columns  */
+.footer-form {
+  margin-top: 4%;
+}
 .footer-form > .content {
   width: 80vw;
-  margin: auto;
-  /* border: 1px solid teal; */
+  font-size: 14px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  padding: 5px 20px;
-  line-height: 20px;
+  color: #333333;
+  line-height: 22px;
 }
 .footer-form .content .col > p {
   padding-top: 25px;
@@ -73,6 +90,8 @@
 }
 .footer-form h4 {
   text-transform: uppercase;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 /* copyright text content  */
@@ -80,4 +99,9 @@
   text-align: center;
   padding: 10px;
   margin-top: 3%;
+}
+
+.content .col {
+  display: flex;
+  flex-direction: column;
 }

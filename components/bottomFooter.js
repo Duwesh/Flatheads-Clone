@@ -1,5 +1,6 @@
 function bottomFooter() {
   return `
+  <hr>
   <section class="ratings-header">
     <div class="star-icons">
       <span><i class="fas fa-star"></i></span>
@@ -15,41 +16,41 @@ function bottomFooter() {
       <h4 class="footer-collapsible-heading">
         What's Special about flatheads Shoes!
       </h4>
-      <br /><br />
+      <br />
       <p>
         <strong>10X Breathable</strong>: Knit fabric uppers to keep your
         feet cool, sweat free and stay comfortable enough for standing all
         day.
       </p>
-      <br />
+      
       <br />
       <p>
         <strong>Ultra Lightweight</strong>
         :&nbsp; Unlike heavy-soled plimsolls, we are extremely lightweight-
         making us the most comfortable casual shoes for men.
       </p>
-      <br />
+      
       <br />
       <p>
         <strong>Supreme Comfort</strong>
         : All day wear, comfortable casual shoes optimised for over 14 hours
         of comfort. Like pillows for your feet!
       </p>
-      <br />
+      
       <br />
       <p>
         <strong>Home-grown</strong>
         : Completely made in India. Casual shoes startup from Bengaluru with
         a mission to make your every day more comfortable.
       </p>
-      <br />
+      
       <br />
       <p>
         <strong>Versatile</strong>
         : Shoes that complement every look! Style them with anything, from
         casual wear to office wear.
       </p>
-      <br />
+      
       <br />
     </div>
   </section>
