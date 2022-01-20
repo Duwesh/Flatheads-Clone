@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
     <link rel="stylesheet" href="styles/product.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/bottomFooter.css" />
   </head>
   <body>
+    <div class="header"></div>
     <div id="main">
       <div id="categories">
         <div id="sizeChart">
@@ -43,6 +46,7 @@
         </div>
 
         <div id="styleChart" onchange="change()">
+          <br><br>
           <h4>Style</h4>
           <div id="item1">
             <input type="checkbox" id="luft" />
@@ -82,12 +86,23 @@
             </select>
           </div>
         </div>
-        <div id="products">
-          <!-- append data -->
-        </div>
+        <div id="products">append data</div>
       </div>
     </div>
+    <div class="footer"></div>
   </body>
 </html>
+<script type="module">
+  import navbar from "/components/header.js";
+  import bottomFooter from "/components/bottomFooter.js";
+
+  let header1 = document.querySelector(".header");
+
+  header1.innerHTML = navbar();
+
+  let footer1 = document.querySelector(".footer");
+
+  footer1.innerHTML = bottomFooter();
+</script>
 
 <script src="./scripts/product.js"></script>

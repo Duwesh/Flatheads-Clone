@@ -269,8 +269,7 @@ function change() {
 
       var k = arr.title;
 
-      
-      for (var i = 0; i < k.length; k++) {
+          for (var i = 0; i < k.length; k++) {
         console.log(k)
       }
     })

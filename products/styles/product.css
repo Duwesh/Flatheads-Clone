@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 #categories {
-  margin-top: 150px;
+  margin-top: 250px;
   width: 200px;
   height: 400px;
   overflow: scroll;
@@ -87,11 +87,21 @@ img {
   display: flex;
   gap: 10px;
   font-size: 13px;
-  margin-top: -25px;
   text-align: center;
   margin-left: 60px;
 }
 #count {
   font-size: 14px;
   letter-spacing: 1px;
+}
+#item, #item1{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.footer{
+  margin-top: 500px;
+}
+
+#main{
+  height: 2100px;
 }
