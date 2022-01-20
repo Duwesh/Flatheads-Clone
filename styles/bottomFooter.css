@@ -1,0 +1,83 @@
+/* footer section  */
+.footer {
+  width: 80vw;
+  margin: 10% auto;
+  /* border: 1px solid black; */
+}
+
+/* service items content area  */
+.service-items {
+  display: flex;
+  justify-content: center;
+}
+
+/* service item individual div  */
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+/* service content image  */
+.service-item > img {
+  width: 150px;
+}
+
+/* reatings area content */
+.ratings-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* star rating icons  */
+.star-icons {
+  display: flex;
+  justify-content: center;
+  color: gold;
+}
+.ratings-header > p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+/* footer list header  */
+.footer-collapsible-heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* footer list or multiple columns  */
+.footer-form > .content {
+  width: 80vw;
+  margin: auto;
+  /* border: 1px solid teal; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 5px 20px;
+  line-height: 20px;
+}
+.footer-form .content .col > p {
+  padding-top: 25px;
+}
+.footer-form .content .col p a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.footer-form h4 {
+  text-transform: uppercase;
+}
+
+/* copyright text content  */
+.copyright-content {
+  text-align: center;
+  padding: 10px;
+  margin-top: 3%;
+}

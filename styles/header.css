@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: Roobert, sans-serif;
+}
+.header {
+  /* border: 1px solid teal; */
+  height: 20px;
+}
+
+/* top header  */
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0.5rem;
+  background-color: #c9fee6;
+  /* background-color: cornflowerblue; */
+}
+
+.animate-heading {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.side-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.side-icons a {
+  color: #000000;
+}
+
+/* icon header  */
+.icon-header {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* background-color: darkgreen; */
+}
+
+/* flathead logo  */
+.flathead-logo {
+  height: 25px;
+}
+
+.icon-header i {
+  font-size: 1.2rem;
+}
+
+/* list header  */
+.menu-items {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid teal; */
+  justify-content: center;
+}
+.list-header a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.list-header ul {
+  list-style: none;
+}
+.menu-items li {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.menu-items li:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid red;
+}
+
+/* dropdown */
+.dropdown {
+  position: relative;
+}
+.dropdown:hover a {
+  color: #333333;
+  font-size: 1rem;
+  line-height: 26px;
+}
+.dropdown-menu {
+  position: absolute;
+  /* background: #8a2be2; */
+  width: 150%;
+  margin: auto;
+  top: 70px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  /* border: 1px solid dodgerblue; */
+}
+
+.discount-off {
+  color: red;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.dropdown:hover .dropdown-menu {
+  top: 34px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-menu li {
+  display: block;
+  /* width: auto; */
+}
+.drop {
+  /* width: 150px; */
+  text-decoration: none;
+  /* background-color: crimson; */
+}
+.mega-menu {
+  position: absolute;
+  /* position: relative; */
+  left: 0;
+  /* width: 80vw; */
+  top: 60px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.mega-menu .content {
+  position: relative;
+  top: 70px;
+  /* background-color: darksalmon; */
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  /* width: 100%; */
+  justify-content: space-between;
+}
+
+.menu-items li:hover .mega-menu {
+  top: 50px;
+  opacity: 1;
+  visibility: visible;
+}
+.content .col {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  line-height: 2rem;
+  /* border: 1px solid black; */
+}
+.img-wrapper {
+  width: 210px;
+  position: relative;
+  overflow: hidden;
+}
+.img-wrapper > img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.content .col .img-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h5 {
+  font-size: 14px;
+
+  font-weight: 500;
+  /* font-size: 1rem; */
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.users {
+  justify-content: space-between;
+}
+
+/* https://cdn.shopify.com/s/files/1/0258/2485/4100/collections/Collection2_400x.jpg?v=1631079294 */
+/* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/Banner01_1_400x.png?v=1629264715 */
+/* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/aurea-collection-banner-optimised_400x.jpg?v=1604423112 */
+/* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/banner-1-optimised_400x.jpg?v=1602872403 */
+/* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/Studio-Session-644-cropped_400x.jpg?v=1602871612 */
