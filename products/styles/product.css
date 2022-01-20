@@ -4,7 +4,7 @@ body {
 #categories {
   margin-top: 250px;
   width: 200px;
-  height: 400px;
+  height: 370px;
   overflow: scroll;
   margin-left: 25px;
 }
@@ -95,8 +95,8 @@ img {
   letter-spacing: 1px;
 }
 #item, #item1{
-  margin-top: 25px;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .footer{
   margin-top: 500px;
