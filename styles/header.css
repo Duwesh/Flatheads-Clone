@@ -141,17 +141,18 @@
 .mega-menu .content {
   position: relative;
   top: 70px;
+  left: 30px;
   /* background-color: darksalmon; */
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
-  /* width: 100%; */
+  width: 70%;
   justify-content: space-between;
 }
 
 .menu-items li:hover .mega-menu {
-  top: 50px;
+  top: 70px;
   opacity: 1;
   visibility: visible;
 }
