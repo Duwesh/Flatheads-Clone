@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
 }
+
+.header {
+  font-family: sans-serif;
+}
 #categories {
   margin-top: 250px;
   width: 200px;
@@ -94,14 +98,15 @@ img {
   font-size: 14px;
   letter-spacing: 1px;
 }
-#item, #item1{
+#item,
+#item1 {
   margin-top: 15px;
   margin-left: 15px;
 }
-.footer{
+.footer {
   margin-top: 500px;
 }
 
-#main{
+#main {
   height: 2100px;
 }
