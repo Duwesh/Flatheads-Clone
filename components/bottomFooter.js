@@ -1,27 +1,5 @@
 function bottomFooter() {
-  return `<section class="service-items">
-    <div class="service-item">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0258/2485/4100/files/FreeShipping.png"
-        alt="Free Shipping Icon"
-      />
-      <p>Free Shipping across India</p>
-    </div>
-    <div class="service-item">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0258/2485/4100/files/Dispatch.png?v=1634106432"
-        alt="Dispatch Icon"
-      />
-      <p>1-Day dispatch</p>
-    </div>
-    <div class="service-item">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0258/2485/4100/files/Exchange.png?v=1634106432"
-        alt="Exchange Icon"
-      />
-      <p>Hassle-free Exchange</p>
-    </div>
-  </section>
+  return `
   <section class="ratings-header">
     <div class="star-icons">
       <span><i class="fas fa-star"></i></span>
