@@ -9,21 +9,20 @@
       src="https://kit.fontawesome.com/683b4b40e3.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/bottomFooter.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/bottomFooter.css" />
   </head>
   <body>
-    
     <header class="header"></header>
     <footer class="footer"></footer>
   </body>
 </html>
 <script type="module">
-  import navbar from "./components/header.js";
+  import navbar from "../components/header.js";
   document.querySelector(".header").innerHTML = navbar();
   console.log(navbar());
 
-  import bottomFooter from "./components/bottomFooter.js";
+  import bottomFooter from "../components/bottomFooter.js";
   document.querySelector(".footer").innerHTML = bottomFooter();
   console.log(bottomFooter());
 </script>

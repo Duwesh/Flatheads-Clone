@@ -7,27 +7,28 @@
 }
 .header {
   /* border: 1px solid teal; */
-  height: 20px;
+  height: 16px;
 }
 
 /* top header  */
 .top-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: auto;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background-color: #c9fee6;
   /* background-color: cornflowerblue; */
 }
 
 .animate-heading {
-  font-size: 12px;
+  font-size: 13.6px;
   line-height: 18px;
   font-weight: 700;
   color: #000000;
 }
 
 .side-icons {
+  margin-left: 4%;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -40,12 +41,11 @@
 
 /* icon header  */
 .icon-header {
-  height: 40px;
+  /* height: 40px; */
   display: flex;
+  padding: 20px 0;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid black; */
-  /* background-color: darkgreen; */
 }
 
 /* flathead logo  */
@@ -92,10 +92,10 @@
 }
 .dropdown-menu {
   position: absolute;
-  /* background: #8a2be2; */
-  width: 150%;
-  margin: auto;
-  top: 70px;
+  background: white;
+  width: 170%;
+  margin: 9% auto;
+  /* top: 170%; */
   left: 0;
   opacity: 0;
   visibility: hidden;
@@ -121,6 +121,7 @@
 }
 .dropdown-menu li {
   display: block;
+  /* flex-wrap: nowrap; */
   /* width: auto; */
 }
 .drop {
@@ -142,12 +143,13 @@
   position: relative;
   top: 70px;
   left: 30px;
-  /* background-color: darksalmon; */
+  background-color: white;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
-  width: 70%;
+  width: 90%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
