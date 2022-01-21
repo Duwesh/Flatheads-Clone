@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/bottomFooter.css" />
     <link rel="stylesheet" href="../styles//secondHalf.css" />
+    <link rel="stylesheet" href="../styles/slider.css">
   </head>
   <body>
     <header class="header"></header>
@@ -27,6 +28,11 @@
   import secondHalf from "../bottom component/secondHalf.js";
   document.querySelector(".second-half").innerHTML = secondHalf();
   console.log(secondHalf());
+
+  import { sliderReview, sliderFunctionality } from "../components/slider.js";
+  document.querySelector(".slider-div").innerHTML = sliderReview();
+  console.log(sliderReview());
+  sliderFunctionality();
 
   import bottomFooter from "../components/bottomFooter.js";
   document.querySelector(".footer").innerHTML = bottomFooter();

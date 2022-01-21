@@ -62,6 +62,7 @@ https://cdn.shopify.com/s/files/1/0258/2485/4100/files/2_14ff6aed-fb2c-4796-baf0
         <span><i class="fas fa-star"></i></span>
       </div>
       <h5 class="subheading">from 4138 reviews</h5>
+      <div class="slider-div"></div>
     </section>
     <section class="service-items">
       <div class="service-item">

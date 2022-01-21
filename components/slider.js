@@ -20,7 +20,7 @@ function sliderFunctionality() {
       idx = 1;
     }
     slide[idx - 1].style.display = "block";
-    setTimeout(imageshow, 3000);
+    setTimeout(imageshow, 2000);
   }
 }
 
