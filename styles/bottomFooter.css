@@ -5,6 +5,12 @@
   /* border: 1px solid black; */
 }
 
+.footer hr{
+  width: 100%;
+  margin: 0;
+  /* margin: 2% 0; */
+}
+
 /* service items content area  */
 .service-items {
   display: flex;
