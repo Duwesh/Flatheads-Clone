@@ -1,0 +1,12 @@
+.image-slideshow {
+  border: 1px solid black;
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 80%;
+  margin: auto;
+  height: 200px;
+}
+.image-slideshow img {
+  width: 100%;
+  height: 100%;
+}
