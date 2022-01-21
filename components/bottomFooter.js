@@ -1,5 +1,6 @@
 function bottomFooter() {
   return `
+  <hr>
   <section class="ratings-header">
     <div class="star-icons">
       <span><i class="fas fa-star"></i></span>
