@@ -156,6 +156,8 @@ font-family: sans-serif;
 }
 #center{
   padding-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 1%;
 }
 #inp{
     height: 60px;
@@ -341,4 +343,8 @@ h2.accordionItemHeading {
      /* border: 1px solid black; */
      height: 100%;
      margin-left: 50px;
+ }
+ #exchange{
+     width: 100%;
+    border: 1px solid black;
  }
