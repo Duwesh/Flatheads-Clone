@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+
+
+    <div class="cartheader">
+        <img src="images/iilogo.png" alt=""></div>
+
+
+        <!--left hand bar-->
+
+
+        <div class="cartleftbox">
+
+            <button onclick="togglePopup()">Credit card</button> <br>
+
+            <div class="horizentalline"></div>
+
+            <button onclick="togglePopup2()">Debit Card</button>  <br>
+
+            <div class="horizentalline"></div>
+
+ 
+
+            <button onclick="togglePopup3()">UPI</button>
+
+        </div>
+
+
+
+        <!--left hand bar-->
+
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+
+            <div class="content">
+
+             <!--   <div class="close-btn" onclick="togglePopup()">&times; </div>  -->
+
+                <h1 class="contenth1">Pay by Credit Card</h1>
+                <div class="contenthorizental"></div>
+                <div class="cartimage">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrA0hiGHqIwOyIKTX7bKF5DdVenAsoxZq1kw&usqp=CAU" alt="">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKNahN_r-g878hZnSeXxHI1-MN5-EE4U342g&usqp=CAU" alt="">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwkje110eHHck27BdecU7r7CFxrVwv7HQHw&usqp=CAU" alt="">
+                </div>
+            
+
+
+
+
+
+             <div class="cartform">
+            <form class="myform">
+                <label>Card Number</label><br>
+                <input type="text" class="cardnum" placeholder="Enter card number"><br><br>
+                
+
+                <div class="cartdate">
+                <label>Expiration Date</label><br>
+                <input type="number" min="1" max="12" class="cardmon" placeholder="Month">
+                <input type="number"  class="cardyear" placeholder="Year" >
+                <input type="number" min="100" max="999" class="cvv" placeholder="CVV/CVC" >  
+                
+                </div>  <br><br>
+
+                <label> Card Holder Name</label><br>
+                <input type="text" class="cardname" placeholder="Enter card  holder name"><br><br>
+
+                <input type="submit" value="submit"> 
+                
+            </form>
+                
+                 <!-- <button onclick="payementcheck()">Make a payment</button>   -->
+               </div>
+            </div>
+    </div>
+        
+
+
+
+
+    <!--2nd data-->
+
+    <div class="popup" id="popup-2">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+      <!--  <div class="close-btn" onclick="togglePopup2()">&times; </div>   -->
+
+        <h1 class="contenth1">Pay by Debit Card</h1>
+        <div class="contenthorizental"></div>
+        <div class="cartimage">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrA0hiGHqIwOyIKTX7bKF5DdVenAsoxZq1kw&usqp=CAU" alt="">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKNahN_r-g878hZnSeXxHI1-MN5-EE4U342g&usqp=CAU" alt="">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwkje110eHHck27BdecU7r7CFxrVwv7HQHw&usqp=CAU" alt="">
+        </div>
+    
+
+     <div class="cartformII">
+    <form class="myformII">
+        <label>Card Number</label><br>
+        <input type="text" class="cardnumII" placeholder="Enter card number"><br><br>
+        
+
+        <div class="cartdate">
+        <label>Expiration Date</label><br>
+        <input type="number" min="1"  max="12" class="cardmonII"  placeholder="Month">
+        <input type="number" class="cardyearII" placeholder="Year" >
+        <input type="number" class= "cvvII"  min="100"  max="999" placeholder="CVV/CVC" >  
+        
+        </div>  <br><br>
+
+        <label> Card Holder Name</label><br>
+        <input type="text" class="cardnameII" placeholder="Enter card  holder name"><br><br>
+
+       <input type="submit" value="submit"> 
+        
+    </form>
+
+    <!--<button onclick="payementcheck()">Make a payment</button>   -->
+
+        
+
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!--3rd data-->
+
+    <div class="popup" id="popup-3">
+    
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+          <!---  <div class="close-btn" onclick="togglePopup3()">&times; </div>   -->
+
+            <h1 class="contenth1">Pay by UPI</h1>
+            <div class="contenthorizental"></div>
+            <div class="cartimage">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrA0hiGHqIwOyIKTX7bKF5DdVenAsoxZq1kw&usqp=CAU" alt="">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKNahN_r-g878hZnSeXxHI1-MN5-EE4U342g&usqp=CAU" alt="">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwkje110eHHck27BdecU7r7CFxrVwv7HQHw&usqp=CAU" alt="">
+            </div>
+        <!---   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque in sapiente, nulla ipsam voluptatibus! </p> <p>magni et iure amet iusto nulla, nostrum cumque omnis, placeat culpa aut laborum nobis</p>   -->
+
+
+
+
+
+         <div class="cartform">
+        <form class="myformIII">
+            <label>Mobile Number</label><br>
+            <input type="text" class="cardnumIII" placeholder="Enter Contact Number"><br><br>
+            
+
+            <div class="cartdate">
+            <label>Amount</label><br>
+          <!---  <input type="number"  class="cardmon" placeholder="Month">
+            <input type="number" class="cardyear" placeholder="Year" >    -->
+            <input type="number" class="amount" placeholder="0" >  
+            
+            </div>  <br><br>
+
+            <label> PIN</label><br>
+            <input type="number" min="1000" max="9999" class="pin" placeholder="Enter Pin number"><br><br>
+
+            <input type="submit" value="submit"> 
+            
+        </form>
+            
+             <!-- <button onclick="payementcheck()">Make a payment</button>   -->
+           </div>
+        </div>
+</div>
+   
+    </div>
+
+    
+    <!--3rd data finish-->
+
+
+</body>
+</html>
+
+<script src="card.js">
+   
+</script>
