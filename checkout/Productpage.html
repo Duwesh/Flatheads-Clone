@@ -6,24 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Product page.css">
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/bottomFooter.css" />
   
 </head>
 
 <body>
-    <div>
+    <header class="header"></header>
+  
+    <div id="pcontainer">
         <br>
         <div id="Productpage">
             <div class="divide50">
-                <div>
-                    <div>
+                <div >
+                    <div id="leftimg">
+                        <!-- <img onmouseover="a()" src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_720x.jpg?v=1636735909" alt="" width="100%" height="20%">
+                        <img onmouseover="b()"  src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure9_720x.jpg?v=1636735906" alt="" width="100%" height="20%">
+                        <img onmouseover="c()"  src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure1_1800x1800.jpg?v=1636735907" alt=""  width="100%" height="20%">
+                        <img onmouseover="d()"  src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure2_1800x1800.jpg?v=1636735907" alt=""  width="100%" height="20%">
+                        <img onmouseover="e()"  src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure3_1800x1800.jpg?v=1637613646" alt=""  width="100%" height="20%">
+                        <img onmouseover="f()"  src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure4_1800x1800.jpg?v=1637613646" alt=""  width="100%" height="20%"> -->
                         
-                        <img id="img" src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_1800x1800.jpg?v=1636735909" alt="" width="100%" height="100%">
+                    </div>
+                    <div id="rightimg">
+                        
+                        <!-- <img  id="right" src="https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_1800x1800.jpg?v=1636735909" alt="" width="100%" height="100%"> -->
                     </div>
                     
                 </div>
                 <div class="ptag">
-                    <h1 id="name">LUFT AZURE BLUE MELANGE</h1>
-                    <h2>Rs.3,329.00</h2>
+                    <!-- <h1 id="name">LUFT AZURE BLUE MELANGE</h1> -->
+                    <div id="name"></div>
+                    <!-- <h2>Rs.3,329.00</h2> -->
+                    <div id="priceinline">
+                        <div>Rs.<span id="cut_price"></span>.00</div>
+                        <div><span id="pricefix"></span></div>
+                        <div id="savem">Save 17%</div>
+
+                    </div>
                     <p>inclusive of all taxes</p><br>
                     <div id="ylwbox">
                         <p>FLAT 25% OFF. USE CODE: COMFORT, GET AN ADDITIONAL 10% OFF USING BLAZE UPI</p>
@@ -85,24 +105,23 @@
                     <img id="gpay" src="https://lh3.googleusercontent.com/nRkUyXf_7zH9AgKYBlEMC1FcR2dh-uq1T9d17oQr4S4WOrn2rFlRsG5UwwM-MIRNlCU1vdymri5Rr4hh01GOoremwmJennA2IUlQOjE" alt=""><br><br>
 
                     <div id="wishlist">
-                        <button id="button">ADD TO CART</button>
+                        <button onclick="addItem()" id="button12">ADD TO CART</button>
                         <button>DEBIT / CREDIT CARD , EMI</button>
-                    </div><br>
+                    </div><br><br>
                     <div class="ptag">
                     <p>or 4 interest-free payments of Rs. 832.25 with Sezzle </p>
-                    <p>  Get an additional 20% cashback up to Rs.500/- using Sezzle</p>
-                    </div>
-                    <hr>
+                    <p>Get an additional 20% cashback up to Rs.500/- using Sezzle</p>
+                    </div><br>
+                    <hr><br>
                     <p>✓  FREE Shipping across India for prepaid orders</p>
                     <p>✓  FREE 7-day returns/exchanges</p>
                     <p>✓  Dispatches within 24 hours</p>
-                    <p>✓  Delivers within 8-10 days across India except lockdown zones</p> 
-                    <h2>CHECK COD AVAILABILITY</h2>
+                    <p>✓  Delivers within 8-10 days across India except lockdown zones</p><br> 
+                    <h3>CHECK COD AVAILABILITY</h3><br>
                     <input id="inp" type="text" placeholder="potal code e.g.501401">
                     <button id="btn">CHECK</button><br><br>
                     <div id="condition">
-                        <!-- <p>View COD Terms & Conditions</p>
-                        <p id="p">+</p> --><div class="accordionItem open">
+                    <div class="accordionItem open">
                      <h2 class="accordionItemHeading">View COD Terms & Conditions</h2>
                      <div class="accordionItemContent">
                          <p>1.Cash on delivery is only serviceable in specific cities and pin codes. You can check if your location is eligible for COD via the availability checker above.</p><br>
@@ -148,23 +167,37 @@
             <li>Delivery usually take 8-10 working days depending on your location:</li><br><br>
             <h3>Exchanges and Returns Policy:</h3><br><br>
             <li>Free exchanges and returns for 7 days from date of delivery for unused shoes with tags intact.</li><br><br>
-            <p>Write to us at rescue@flatheads.in with your order ID</p>
-        </div>
+            <p>Write to us at rescue@flatheads.in with your order ID</p><br>
+        </div><br><br>
         <div>
             <hr>
+            <br>
                 <p id="center">Exchange Returns</p>
+                <br>
                 <hr>
-                <p id="center">Frequently Asked Questions</p>
+                <br>
+                <p id="center">Frequently Asked Questions</p><br>
                 <hr>
-                <p id="center">Contact Us</p>
+                <br>
+                <p id="center">Contact Us</p><br>
                 <hr>
-        </div><br>
+        </div><br><br><br>
         <div id="cr">
             <h3>CUSTOMER REVIEWS</h3>
             <p>Write a review</p>
            </div>
     </div>
+</div>
+    <footer class="footer"></footer>
     <script src="Product page.js"></script>
 </body>
 </html>
-
+<script type="module">
+    import navbar from "../components/header.js";
+    document.querySelector(".header").innerHTML = navbar();
+    // console.log(navbar());
+  
+    import bottomFooter from "../components/bottomFooter.js";
+    document.querySelector(".footer").innerHTML = bottomFooter();
+    // console.log(bottomFooter());
+  </script>

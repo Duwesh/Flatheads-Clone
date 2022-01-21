@@ -251,7 +251,7 @@ function productsAdded(el) {
   console.log(addedProducts)
   localStorage.setItem("myProducts", JSON.stringify(addedProducts));
 
-  window.location.href = "#";
+  window.location.href = "../checkout/Productpage.html";
 }
 
 //CheckBox filter
