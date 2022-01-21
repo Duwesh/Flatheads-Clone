@@ -4,6 +4,12 @@
   font-size: 14px;
 }
 
+.footer hr{
+  width: 100%;
+  margin: 0;
+  /* margin: 2% 0; */
+}
+
 /* service items content area  */
 .service-items {
   display: flex;

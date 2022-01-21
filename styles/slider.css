@@ -1,0 +1,9 @@
+.image-slideshow {
+  width: 60%;
+  margin: auto;
+  height: 300px;
+}
+.image-slideshow img {
+  width: 100%;
+  height: 100%;
+}
