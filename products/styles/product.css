@@ -1,10 +1,14 @@
 body {
   font-family: sans-serif;
 }
+
+.header {
+  font-family: sans-serif;
+}
 #categories {
   margin-top: 250px;
   width: 200px;
-  height: 400px;
+  height: 370px;
   overflow: scroll;
   margin-left: 25px;
 }
@@ -94,14 +98,15 @@ img {
   font-size: 14px;
   letter-spacing: 1px;
 }
-#item, #item1{
-  margin-top: 25px;
-  margin-left: 20px;
+#item,
+#item1 {
+  margin-top: 15px;
+  margin-left: 15px;
 }
-.footer{
+.footer {
   margin-top: 500px;
 }
 
-#main{
+#main {
   height: 2100px;
 }

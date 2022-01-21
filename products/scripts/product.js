@@ -256,24 +256,71 @@ function productsAdded(el) {
 
 //CheckBox filter
 
-function change() {
+//luft Checkbox Filter
+document.getElementById("luft").addEventListener("change", myLuft);
 
+function myLuft() {
   let luft = document.getElementById("luft").checked;
-  let drift = document.getElementById("drift").checked;
-  let new_troos = document.getElementById("new_troos").checked;
-  var count = 0;
 
-  if (luft == true) {
-    displayProducts(arr)
-    arr.map(function (arr) {
-
-      var k = arr.title;
-
-          for (var i = 0; i < k.length; k++) {
-        console.log(k)
+  if (luft === true) {
+    let luft_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] + k[i + 3] === "Luft") {
+          return el;
+        }
       }
     })
+    displayProducts(luft_products);
   }
-
+  else {
+    displayProducts(arr);
+  }
 }
 
+//Drift Checkbox Filter
+document.getElementById("drift").addEventListener("change", myDrift);
+
+function myDrift() {
+
+  let drift = document.getElementById("drift").checked;
+  let new_troos = document.getElementById("new_troos").checked;
+
+  if (drift === true) {
+    let drift_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] + k[i + 3] + k[i + 4] === "Drift") {
+          return el;
+        }
+      }
+    })
+    displayProducts(drift_products);
+  }
+  else {
+    displayProducts(arr);
+  }
+}
+
+//Troos checkbox Filter
+
+document.getElementById("new_troos").addEventListener("change", myTroos);
+
+function myTroos() {
+  let new_troos = document.getElementById("new_troos").checked;
+
+  if (new_troos === true) {
+    let troos_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] === "New") {
+          return el;
+        }
+      }
+    })
+    displayProducts(troos_products);
+  }
+  else {
+    displayProducts(arr);
+  }
+}

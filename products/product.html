@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/product.css" />
-    <link rel="stylesheet" href="/styles/header.css" />
-    <link rel="stylesheet" href="/styles/bottomFooter.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/bottomFooter.css" />
   </head>
   <body>
     <div class="header"></div>
@@ -45,8 +49,8 @@
           </div>
         </div>
 
-        <div id="styleChart" onchange="change()">
-          <br><br>
+        <div id="styleChart">
+          <br /><br />
           <h4>Style</h4>
           <div id="item1">
             <input type="checkbox" id="luft" />
@@ -93,8 +97,8 @@
   </body>
 </html>
 <script type="module">
-  import navbar from "/components/header.js";
-  import bottomFooter from "/components/bottomFooter.js";
+  import navbar from "../components/header.js";
+  import bottomFooter from "../components/bottomFooter.js";
 
   let header1 = document.querySelector(".header");
 
