@@ -1,11 +1,7 @@
 .image-slideshow {
-  border: 1px solid black;
-  /* display: flex; */
-  /* justify-content: center; */
   width: 60%;
   margin: auto;
   height: 300px;
-  /* border: 1px solid black; */
 }
 .image-slideshow img {
   width: 100%;
