@@ -5,6 +5,9 @@ function cont(){
   function update(){
     window.location.href = "./cart.html"
   }
+  function update(){
+    window.location.href = "./payment.html"
+  }
   let main = document.querySelector("#cart_section");
   let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
  
