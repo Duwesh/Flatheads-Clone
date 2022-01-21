@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/bottomFooter.css">
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+   
+
+
+</head>
+<body>
+    <header class="header"></header>
+        <hr>
+        <div class="contain">
+            <h1>LOGIN</h1>
+             <form onsubmit="login(event)" id="my_form" >
+                    <div id="err_alert">
+                        <ul id="list">
+                           
+                                <li id="list_elm">Incorrect email or password.</li>
+                          
+                        </ul>
+                    </div>
+                  <br>
+                <label> USERNAME</label><br>
+                <input id="login_username" type="username" ><br>
+                <br>
+                <label>PASSWORD</label><br>
+                <input id="login_password" type="password" ><br>
+                <br>
+                
+                <button id="create" type="submit" >SIGN IN</button>
+                <p id="para" onclick="link()">Create account</p>
+        
+    </form>
+    </div>
+  
+   <footer class="footer"></footer>
+ 
+</body>
+</html>
+<script type="module">
+    import navbar from "./scripts/header.js";
+    let container = document.querySelector(".header");
+    container.innerHTML = navbar();
+    
+    import bottomFooter from "./scripts/bottomFooter.js";
+    let contain = document.querySelector(".footer");
+    contain.innerHTML = bottomFooter();
+
+</script>
+<script src="./scripts/login.js"></script>
