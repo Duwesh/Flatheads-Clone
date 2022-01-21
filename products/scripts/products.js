@@ -256,24 +256,150 @@ function productsAdded(el) {
 
 //CheckBox filter
 
-function change() {
+//luft Checkbox Filter
+document.getElementById("luft").addEventListener("change", myLuft);
 
+function myLuft() {
   let luft = document.getElementById("luft").checked;
-  let drift = document.getElementById("drift").checked;
-  let new_troos = document.getElementById("new_troos").checked;
-  var count = 0;
 
-  if (luft == true) {
-    displayProducts(arr)
-    arr.map(function (arr) {
-
-      var k = arr.title;
-
-          for (var i = 0; i < k.length; k++) {
-        console.log(k)
+  if (luft === true) {
+    let luft_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] + k[i + 3] === "Luft") {
+          return el;
+        }
       }
     })
+    displayProducts(luft_products);
   }
-
+  else {
+    displayProducts(arr);
+  }
 }
 
+//Drift Checkbox Filter
+document.getElementById("drift").addEventListener("change", myDrift);
+
+function myDrift() {
+
+  let drift = document.getElementById("drift").checked;
+  let new_troos = document.getElementById("new_troos").checked;
+
+  if (drift === true) {
+    let drift_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] + k[i + 3] + k[i + 4] === "Drift") {
+          return el;
+        }
+      }
+    })
+    displayProducts(drift_products);
+  }
+  else {
+    displayProducts(arr);
+  }
+}
+
+//Troos checkbox Filter
+
+document.getElementById("new_troos").addEventListener("change", myTroos);
+
+function myTroos() {
+  let new_troos = document.getElementById("new_troos").checked;
+
+  if (new_troos === true) {
+    let troos_products = arr.filter(function (el) {
+      var k = el.title;
+      for (var i = 0; i < k.length; k++) {
+        if (k[i] + k[i + 1] + k[i + 2] === "New") {
+          return el;
+        }
+      }
+    })
+    displayProducts(troos_products);
+  }
+  else {
+    displayProducts(arr);
+  }
+}
+
+//checkBox Sort Based on Size
+
+
+document.getElementById("sizeChart").addEventListener("change", onInput);
+
+function onInput() {
+  let id1 = document.getElementById("6").checked;
+  let id2 = document.getElementById("7").checked;
+  let id3 = document.getElementById("8").checked;
+  let id4 = document.getElementById("9").checked;
+  let id5 = document.getElementById("10").checked;
+  let id6 = document.getElementById("11").checked;
+  let id7 = document.getElementById("12").checked;
+
+
+  if (id1 == true) {
+    let items1 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "6" || k == "9") {
+        return el
+      }
+    })
+    displayProducts(items1);
+  } else if (id2 == true) {
+    let items2 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "8" || k == "10" || k == "6") {
+        return el
+      }
+    })
+    displayProducts(items2);
+  } else if (id3 == true) {
+    let items3 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "7" || k == "11") {
+        return el
+      }
+    })
+    displayProducts(items3);
+  } else if (id4 == true) {
+    let items4 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "12" || k == "13" || k == "15") {
+        return el
+      }
+    })
+    displayProducts(items4);
+  } else if (id5 == true) {
+    let items5 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "14") {
+        return el
+      }
+    })
+    displayProducts(items5);
+  }
+  else if (id6 == true) {
+    let items6 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "6" || k == "10") {
+        return el
+      }
+    })
+    displayProducts(items6);
+  }
+  else if (id7 == true) {
+    let items7 = arr.filter((el) => {
+      let k = el.id;
+      if (k == "9" || k == "15") {
+        return el
+      }
+    })
+    displayProducts(items7);
+  }
+  else {
+    displayProducts(arr);
+  }
+}

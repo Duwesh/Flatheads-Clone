@@ -9,12 +9,12 @@ function bottomFooter() {
       <span><i class="fas fa-star"></i></span>
       <span><i class="fas fa-star"></i></span>
     </div>
-    <p>Customers rate us <strong>4.9/5</strong> based on <strong>4138 reviews.</strong></p>
+    <p>Customers rate us 4.9/5 based on 4138 reviews.</p>
   </section>
   <section class="footer-content">
     <div class="footer_collapsible">
       <h4 class="footer-collapsible-heading">
-        What's Special about flatheads Shoes!
+        What's Special about flatheads Shoes?
       </h4>
       <br />
       <p>
@@ -58,7 +58,7 @@ function bottomFooter() {
     <div class="content">
       <div class="col">
         <h4>contact us</h4>
-        <p><a href="#">Drop us an email to rescue@flatheads.in</a></p>
+        <p><a href="#">Drop us an <br> email to rescue@flatheads.in</a></p>
         <p>or</p>
         <p><a href="#">Call us on +917899136414</a></p>
         <p><a href="#">(Calls available Mon-Fri, 10am-6pm)</a></p>

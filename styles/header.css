@@ -7,13 +7,13 @@
 }
 .header {
   /* border: 1px solid teal; */
-  height: 16px;
+  font-size: 16px;
 }
 
 /* top header  */
 .top-header {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   margin: auto;
   padding: 0.8rem;
   background-color: #c9fee6;
@@ -21,6 +21,7 @@
 }
 
 .animate-heading {
+  margin-right: 5%;
   font-size: 13.6px;
   line-height: 18px;
   font-weight: 700;
@@ -33,6 +34,11 @@
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
+}
+
+.top-header > .side-icons {
+  margin-right:  12%;
+  margin-left: 10%;
 }
 
 .side-icons a {
