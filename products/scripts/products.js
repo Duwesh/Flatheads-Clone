@@ -325,7 +325,7 @@ function myTroos() {
   }
 }
 
-//checkBox Based on Size
+//checkBox Sort Based on Size
 
 
 document.getElementById("sizeChart").addEventListener("change", onInput);
