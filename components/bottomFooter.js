@@ -14,7 +14,7 @@ function bottomFooter() {
   <section class="footer-content">
     <div class="footer_collapsible">
       <h4 class="footer-collapsible-heading">
-        What's Special about flatheads Shoes?git a
+        What's Special about flatheads Shoes?
       </h4>
       <br />
       <p>
