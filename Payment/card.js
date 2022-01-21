@@ -47,7 +47,7 @@ var cvv = document.querySelector(".cvv").value;
 if(cvv == 123){
 
     alert("Congratulation! your payment is succesful");
-    window.location.href= "main.html"
+    window.location.href= "../landing/landing_my.html"
 
 }
 
@@ -93,7 +93,7 @@ var cvv = document.querySelector(".cvvII").value;
 if(cvv ==456){
 
     alert("Congratulation ! your payment is succeful");
-    window.location.href= "main.html"
+    window.location.href= "../landing/landing_my.html"
 
 }
 
@@ -136,7 +136,7 @@ var pin = document.querySelector(".pin").value;
 if(pin ==1234){
 
     alert("Congratulation ! payment is successful");
-    window.location.href= "main.html"
+    window.location.href= "../landing/landing_my.html"
 
 }
 
