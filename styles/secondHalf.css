@@ -1,8 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.second-half{
+    margin-top: 3%;
 }
+
 /* service items content area  */
 .service-items {
   display: flex;
