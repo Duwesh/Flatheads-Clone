@@ -6,7 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ridiculously Comfortable Shoes | Flatheads | All day wear casual shoes</title>
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/bottomFooter.css" />
+    <link rel="stylesheet" href="../styles//secondHalf.css" />
+    <link rel="stylesheet" href="../styles/slider.css">
     <link rel="stylesheet" href="landing_my.css">
+
     <style>
         *{
             font-family: sans-serif;
@@ -14,9 +23,8 @@
     </style>
 </head>
 
-<body>
-
-
+<body>    
+    <header class="header"></header>
     <div class="rdw-container">
         <!-- <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div> -->
 
@@ -810,12 +818,23 @@
 
     <!-- div 18 End -->
 
+    <!-- Duwaeh  -->
+    <section class="second-half"></section>
+    <footer class="footer"></footer>
+    <!-- End -->
+
  
 </body>
 
 </html>
 
-<script>
+
+<script type="module">
+
+import navbar from "../components/header.js";
+  document.querySelector(".header").innerHTML = navbar();
+  console.log(navbar());
+
 
     const imgs = document.querySelectorAll(".rdw-container .sldier");
     // const dots = document.querySelectorAll(".dot i");
@@ -844,5 +863,19 @@
         }, time);
     };
 
-    startAutoSlide();
+    startAutoSlide(); 
+// Second Half below
+
+    import secondHalf from "../bottom component/secondHalf.js";
+  document.querySelector(".second-half").innerHTML = secondHalf();
+//   console.log(secondHalf());
+
+  import { sliderReview, sliderFunctionality } from "../components/slider.js";
+  document.querySelector(".slider-div").innerHTML = sliderReview();
+//   console.log(sliderReview());
+  sliderFunctionality();
+
+  import bottomFooter from "../components/bottomFooter.js";
+  document.querySelector(".footer").innerHTML = bottomFooter();
+  console.log(bottomFooter());
 </script>
