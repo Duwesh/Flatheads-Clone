@@ -351,7 +351,7 @@ function onInput() {
   } else if (id2 == true) {
     let items2 = arr.filter((el) => {
       let k = el.id;
-      if (k == "8" || k == "10") {
+      if (k == "8" || k == "10" || k == "6") {
         return el
       }
     })
@@ -367,7 +367,7 @@ function onInput() {
   } else if (id4 == true) {
     let items4 = arr.filter((el) => {
       let k = el.id;
-      if (k == "12" || k == "13") {
+      if (k == "12" || k == "13" || k == "15") {
         return el
       }
     })
@@ -375,7 +375,7 @@ function onInput() {
   } else if (id5 == true) {
     let items5 = arr.filter((el) => {
       let k = el.id;
-      if (k == "14" || k == "15") {
+      if (k == "14") {
         return el
       }
     })
