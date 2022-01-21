@@ -1,5 +1,5 @@
 .second-half{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 /* service items content area  */
@@ -76,6 +76,8 @@
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: initial;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 /* press items section  */
