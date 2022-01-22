@@ -406,9 +406,9 @@ grid-template-rows: repeat(1,520px);
 /* End css for 17th  */
 
 /*  css for 18th  */
- .strike{
+ /* .strike{
     text-decoration: line-through;
-}
+} */
 .div18{
     display: grid;
     grid-template-columns: repeat(3,1fr);
