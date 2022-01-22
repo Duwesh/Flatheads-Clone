@@ -12,11 +12,9 @@
 }
 .main{
      padding: 5%;
-    border: 1px solid blue;
+  
     height: 900px;
-    /* margin-top: 200px; */
-    /* width: 100%;
-     */
+    
 }
 
 #form{
@@ -82,7 +80,7 @@ label{
     margin-top: 2%;
     height: 4%;
     border-radius: 5px;
-  
+     font-size: 95%;
    font-weight: 110%;
    cursor: pointer;
 }
