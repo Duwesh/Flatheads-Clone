@@ -7,10 +7,9 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="./styles/cart.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/bottomFooter.css">
-
+      <link rel="stylesheet" href="./styles/cart.css">
+      <link rel="stylesheet" href="../styles/header.css">
+       <link rel="stylesheet" href="../styles/bottomFooter.css">
   <!-- <link rel="stylesheet" href="" class="css"> -->
   
 <body>
@@ -77,14 +76,13 @@
   </div>
     <footer class="footer"></footer>
     <script type="module">
-      import navbar from "./scripts/header.js";
-      let container = document.querySelector(".header");
-      container.innerHTML = navbar();
-      
-      import bottomFooter from "./scripts/bottomFooter.js";
-      let contain = document.querySelector(".footer");
-      contain.innerHTML = bottomFooter();
-  
+       import navbar from "../components/header.js";
+    let container = document.querySelector(".header");
+    container.innerHTML = navbar();
+    
+    import bottomFooter from "../components/bottomFooter.js";
+    let contain = document.querySelector(".footer");
+    contain.innerHTML = bottomFooter();
   </script>
     <script src="./scripts/cart.js">
    </script>

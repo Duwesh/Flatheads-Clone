@@ -406,7 +406,7 @@ grid-template-rows: repeat(1,520px);
 /* End css for 17th  */
 
 /*  css for 18th  */
- 
+
 .div18{
     display: grid;
     grid-template-columns: repeat(3,1fr);
