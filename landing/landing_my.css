@@ -55,6 +55,7 @@ div.second_txt{
     border-radius: 1px;
     padding: 9px 29px;
     background-color:rgb(253,211,0);
+    font-weight: bold;
 }
 
 /* above new 3rd Div */
@@ -67,6 +68,8 @@ div.second_txt{
     border-radius: 1px;
     padding: 10px 30px;
     background-color:rgb(253,211,0);
+    font-weight: bold;
+
 }
 
 .div4{
@@ -225,6 +228,7 @@ grid-template-rows: repeat(1,520px);
       border-radius: 1px;
       padding: 10px 30px;
       background-color:rgb(253,211,0);
+      font-weight: bold;
   }
 /* End css for 7th  */
 
@@ -346,6 +350,7 @@ grid-template-rows: repeat(1,520px);
       border-radius: 1px;
       padding: 10px 30px;
       background-color:rgb(253,211,0);
+      font-weight: bold;
   }
 /* End css for 13th  */
 
@@ -421,3 +426,65 @@ grid-template-rows: repeat(1,520px);
 }
 /* End css for 18th  */
 
+.strike {
+    text-decoration: line-through;
+}
+
+.grid-product__price--savings{
+    color: tomato;
+}
+.grid-product__link{
+    color: darkslategray;
+}
+
+.rte featured-row__subtext{
+    line-height: 28.16px;
+    font-size: 17.6px;
+    letter-spacing: normal;
+}
+
+.div7 .h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.div10 h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div10 .btn{
+    border-radius: 1px;
+    padding: 10px 30px;
+    background-color:rgb(253,211,0);
+    font-weight: bold;
+}
+
+.div13 .h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div13 p {
+    letter-spacing: normal;
+}
+
+.the {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: .75em;
+    margin-bottom: 20px;
+}
+
+.div4 .h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .3em;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-content{
+    margin-left: 12%;
+}
