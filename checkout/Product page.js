@@ -37,7 +37,7 @@ function manish_append(data){
     leftdiv.append(image,image_2)
 
     price_cut.textContent = data.original_price
-    price.textContent = `Rs. ${data.final_price}.00`
+    price.textContent = data.final_price
 
 
 
