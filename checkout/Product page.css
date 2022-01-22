@@ -11,7 +11,6 @@ font-family: sans-serif;
 }
 .divide50{
     display: flex;
-  
 }
 .divide50>div{
     width: 50%;
@@ -156,6 +155,8 @@ font-family: sans-serif;
 }
 #center{
   padding-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 1%;
 }
 #inp{
     height: 60px;
@@ -200,7 +201,7 @@ padding-left: 360px;
 #cr>p{
     margin-left: 74%;
     padding-top: 38px;
-    border: 1px solid black;
+  
 }
 #cr>h3{
     padding-top: 38px;
@@ -293,12 +294,12 @@ h2.accordionItemHeading {
 }
 .footer{
   display:inline-block;
-  text-align:center;
   margin-top:80px;
   width:100%;
 }
  #pcontainer{
-     margin-top: 10%;
+     margin-top: 3%;
+     margin-bottom: 0px;
  }
  .divide50>:nth-child(1){
      display: flex;
@@ -343,3 +344,10 @@ h2.accordionItemHeading {
      height: 100%;
      margin-left: 50px;
  }
+ #exchange{
+     width: 100%;
+    border: 1px solid black;
+ }
+#name{
+  padding-bottom: 20px;
+}

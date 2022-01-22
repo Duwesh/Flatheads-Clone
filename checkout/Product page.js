@@ -87,6 +87,7 @@ function addItem(event){
     }
     arr12.push(obj);
     localStorage.setItem("cart_data",JSON.stringify(arr12));
+    window.location.href = "../signin/cart.html"
 
 }
 
