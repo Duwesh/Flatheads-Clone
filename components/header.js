@@ -19,8 +19,8 @@ function navbar() {
         alt="flathead-logo"
     /></a>
     <span class="side-icons users">
-        <a href="#"> <i class="far fa-user"></i></a>
-        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+        <a href="../signin/login.html"> <i class="far fa-user"></i></a>
+        <a href="../signin/cart.html"> <i class="fas fa-shopping-bag"></i></a>
     </span>
   </nav>
   <nav class="list-header">
@@ -128,7 +128,7 @@ function navbar() {
         </div>
       </li>
       <li class="dropdown">
-        <a href="#" class="menu-item bold">NEW ARRIVALS</a>
+        <a href="../products/products.html" class="menu-item bold">NEW ARRIVALS</a>
         <ul class="dropdown-menu">
           <li><a href="" class="menu-item">Luft - Super Lightweight</a></li>
           <li><a href="" class="menu-item">Drift Bamboo Sliders</a></li>
