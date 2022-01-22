@@ -5,14 +5,14 @@ function navbar() {
       Rs.500/-
     </h3>
     <span class="side-icons">
-        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-linkedin-in"></i></a>
     </span>
   </nav>
   <nav class="icon-header">
     <i class="fas fa-search"></i>
-    <a href="#"
+    <a href="../landing/index.html"
       ><img
         class="flathead-logo"
         src="https://cdn.shopify.com/s/files/1/0258/2485/4100/files/flatheads-logo-new-hotizontal_19deae69-8bf4-4308-922b-3623657a16f5_160x.png?v=1629369683"
