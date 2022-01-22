@@ -106,20 +106,23 @@ a{
 
 #freeshipbox{
     display: flex;
-    margin-top: 10px;
-  /*  border: 2px solid blue;     */
+  /* border: 2px solid blue;      */
     height: 30px;
     font-size: 16px;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #method{
     margin-left: 10px;
 }
-
+/* 
 #freeshiping{
 
     margin-left: 125px;
-}
+} */
 
 
 #imgdiv{
