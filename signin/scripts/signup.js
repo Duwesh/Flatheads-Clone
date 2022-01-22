@@ -1,4 +1,7 @@
-
+function login_link()
+{
+    window.location.href="./login.html";
+}
 
 document.querySelector("#create").addEventListener("click",Register)
 async function Register(event){
