@@ -6,7 +6,7 @@ function cont(){
     window.location.href = "./cart.html"
   }
   function payment(){
-    window.location.href = "..payment/payment.html"
+    window.location.href = "../Payment/payment.html"
   }
   let main = document.querySelector("#cart_section");
   // let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
@@ -136,6 +136,9 @@ function cont(){
    let add_div = document.createElement("div");
      add_div.setAttribute("id","add_div");
      add_div.addEventListener("click",add_val);
+
+     //// increasing quantity////
+
      function add_val(){
        count++;
        
@@ -148,6 +151,8 @@ function cont(){
    console.log(total_val);
 
       total.innerText = `Rs.${total_val}.00`;
+
+      ////sub-total value////
       document.querySelector("#show_sub").innerText = "";
       document.querySelector("#show_sub").innerText = `Rs.${total_pr+total_val}.00 `;
      }
@@ -158,7 +163,9 @@ function cont(){
  let min_div = document.createElement("div");
      min_div.setAttribute("id","min_div");
      min_div.addEventListener("click",min_val);
-    
+
+    //// decreasing quantity////
+
      function min_val(){
        count--;
       //  total_val = total_val - Number(final_price);
@@ -184,10 +191,12 @@ function cont(){
       
     let total_val = count*elm.final_price;
     console.log(total_val);
+
+    ////total val////
       total.innerText = `Rs.${total_val}.00`;
       
      
-  
+    ////sub-total value////
       document.querySelector("#show_sub").innerText = "";
       document.querySelector("#show_sub").innerText = `Rs.${total_pr+total_val}.00 `;
      }
