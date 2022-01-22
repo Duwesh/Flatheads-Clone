@@ -30,7 +30,8 @@ async function getData(login_data)
    // let username = document.getElementById("login_username").value;
    if(data.error==false)
    {
-       window.location.href = "../landing/landing_my.html";
+       window.location.href = "../landing/index.html";
+       
    }
    
    console.log(data);
