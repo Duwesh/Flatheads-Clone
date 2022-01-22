@@ -1,0 +1,178 @@
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 400vh;
+   /* background:rgba(0,0,0,0.7);      */
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 70%;
+    left: 62%;
+    transform: translate(-50%, -70%) scale(0);
+   /*  background-color: salmon;            */
+     height: 550px;
+    width: 900px;
+
+     z-index: 2;            
+
+    padding: 0px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.contenth1{
+    color: coral;
+    margin-left: 0px;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+
+    top: 20px;
+    height: 30px;
+    width: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.popup.active .overlay{
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+/* yha se */
+
+.cartheader{
+    height: 100px;
+    width: 100%;
+    border: 2px solid grey transparent;
+    background-color:black;
+    border-radius: 5px;
+}
+
+
+
+
+.cartheader img{
+    height: 100px;
+    width: 250px ;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 30px;
+    
+}
+
+.cartleftbox{
+    height:550px;
+    width: 350px;
+    border:1px solid grey;
+
+
+    
+}
+
+.cartleftbox button{
+    height: 100px;
+    width: 350px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+}
+
+.horizentalline{
+
+    height:2px;
+    width: 350px;
+
+    background-color:grey;
+
+}
+
+.contenthorizental{
+    height: 3px;
+    width: 300px;
+    background-color: coral;
+    
+}
+
+.cartimage{
+    display: flex;
+    height: 50px;
+    width: 600px;
+ /*   border:  2px solid grey;         */
+    margin-top: 5px;
+    margin-left: 280px;
+}
+
+.cartimage img{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.cartform{
+    margin-top: 30px;
+   /* display: flex;         */
+}
+
+label{
+    font-size: 25px;
+   /* font-weight: 600;   */
+}
+input{
+    height: 45px;
+    width: 600px;
+    font-size: 20px;
+}
+
+/*form input:nth-child(2){
+    height: 45px;
+    width: 100px;
+}    */
+
+.cartimage img{
+    height: 45px;
+    width: 100px;
+    margin-top: 5px;
+
+}
+
+
+
+.cartdate input{
+    height: 45px;
+    width: 192px;
+    
+}
+
+input[submit]{
+    background-color: yellow;
+}
+
+
+.btnpayment{
+    background-color: yellow;
+}
+
+
+
