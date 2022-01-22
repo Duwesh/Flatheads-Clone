@@ -74,12 +74,12 @@ function append_data(arr) {
     remove.addEventListener("click", function () {
       arr.splice(index, 1);
       console.log(arr);
-      main.innerText = "";
+      // main.innerText = "";
 
-      localStorage.setItem("new_data", JSON.stringify(arr));
+      localStorage.setItem("cart_data", JSON.stringify(arr));
       append_data(arr);
       let total_arr =
-        JSON.parse(localStorage.getItem("new_data", JSON.stringify(arr))) || [];
+        JSON.parse(localStorage.getItem("cart_data", JSON.stringify(arr))) || [];
 
       console.log(total_arr);
       let total_price = 0;
