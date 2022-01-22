@@ -5,7 +5,7 @@ function update() {
   window.location.href = "./cart.html";
 }
 function payment() {
-  window.location.href = "../Payment/payment.html";
+  window.location.href = "../Payment/Address.html";
 }
 let main = document.querySelector("#cart_section");
 let arr = JSON.parse(localStorage.getItem("cart_data")) || [];
