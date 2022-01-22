@@ -9,44 +9,44 @@ function cont(){
     window.location.href = "../Payment/payment.html"
   }
   let main = document.querySelector("#cart_section");
-  // let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
- let arr = [
-  {
- "id": "1",
- "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_1800x1800.jpg",
- "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure9_1800x1800.jpg?v=1636735906",
- "title": "Luft Azure Blue Melange",
- "original_price": "3999",
- "final_price": "3329",
- "offer": "Save 17%",
+  let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
+//  let arr = [
+//   {
+//  "id": "1",
+//  "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_1800x1800.jpg",
+//  "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure9_1800x1800.jpg?v=1636735906",
+//  "title": "Luft Azure Blue Melange",
+//  "original_price": "3999",
+//  "final_price": "3329",
+//  "offer": "Save 17%",
 
-},
-{
- "id": "2",
- "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
- "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
- "title": "Luft Cocoa Brown",
- "original_price": "3999",
- "final_price": "3329",
- "offer": "Save 17%",
+// },
+// {
+//  "id": "2",
+//  "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
+//  "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
+//  "title": "Luft Cocoa Brown",
+//  "original_price": "3999",
+//  "final_price": "3329",
+//  "offer": "Save 17%",
 
-},
-{
- "id": "2",
- "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
- "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
- "title": "Luft Cocoa Brown",
- "original_price": "3999",
- "final_price": "3329",
- "offer": "Save 17%",
+// },
+// {
+//  "id": "2",
+//  "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
+//  "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
+//  "title": "Luft Cocoa Brown",
+//  "original_price": "3999",
+//  "final_price": "3329",
+//  "offer": "Save 17%",
 
-},
-
-
+// },
 
 
 
-]
+
+
+// ]
   append_data(arr);
  
   function append_data(arr){
