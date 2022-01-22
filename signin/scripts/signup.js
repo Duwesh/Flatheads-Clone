@@ -34,7 +34,7 @@ async function Register(event){
       window.location.href = "./login.html"
   }
   else{
-      alert("This username already exists")
+      alert("This username already exists");
   }
   console.log(data);
   }

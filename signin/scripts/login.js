@@ -32,6 +32,7 @@ async function getData(login_data)
    {
        window.location.href = "../landing/landing_my.html";
    }
+   
    console.log(data);
    get_User();
 }
