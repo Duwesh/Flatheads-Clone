@@ -1,13 +1,52 @@
 
 function cont(){
-    window.location.href = "./home.html"
+    window.location.href = "../products/products.html"
   }
   function update(){
     window.location.href = "./cart.html"
   }
+  function payment(){
+    window.location.href = "../Payment/payment.html"
+  }
   let main = document.querySelector("#cart_section");
-  let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
- 
+  // let arr = JSON.parse(localStorage.getItem("cart_data"))||[];
+ let arr = [
+  {
+ "id": "1",
+ "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure8_1800x1800.jpg",
+ "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Azure9_1800x1800.jpg?v=1636735906",
+ "title": "Luft Azure Blue Melange",
+ "original_price": "3999",
+ "final_price": "3329",
+ "offer": "Save 17%",
+
+},
+{
+ "id": "2",
+ "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
+ "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
+ "title": "Luft Cocoa Brown",
+ "original_price": "3999",
+ "final_price": "3329",
+ "offer": "Save 17%",
+
+},
+{
+ "id": "2",
+ "image1": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa8_1800x1800.jpg",
+ "image2": "https://cdn.shopify.com/s/files/1/0258/2485/4100/products/Cocoa9_1800x1800.jpg?v=1636735954",
+ "title": "Luft Cocoa Brown",
+ "original_price": "3999",
+ "final_price": "3329",
+ "offer": "Save 17%",
+
+},
+
+
+
+
+
+]
   append_data(arr);
  
   function append_data(arr){
@@ -46,6 +85,7 @@ function cont(){
    arr.splice(index,1);
        console.log(arr)
        main.innerText = '';
+       
        localStorage.setItem("new_data",JSON.stringify(arr));
        append_data(arr);
        let total_arr = JSON.parse(localStorage.getItem("new_data",JSON.stringify(arr)))||[];
@@ -96,6 +136,9 @@ function cont(){
    let add_div = document.createElement("div");
      add_div.setAttribute("id","add_div");
      add_div.addEventListener("click",add_val);
+
+     //// increasing quantity////
+
      function add_val(){
        count++;
        
@@ -108,6 +151,8 @@ function cont(){
    console.log(total_val);
 
       total.innerText = `Rs.${total_val}.00`;
+
+      ////sub-total value////
       document.querySelector("#show_sub").innerText = "";
       document.querySelector("#show_sub").innerText = `Rs.${total_pr+total_val}.00 `;
      }
@@ -118,7 +163,9 @@ function cont(){
  let min_div = document.createElement("div");
      min_div.setAttribute("id","min_div");
      min_div.addEventListener("click",min_val);
-    
+
+    //// decreasing quantity////
+
      function min_val(){
        count--;
       //  total_val = total_val - Number(final_price);
@@ -144,10 +191,12 @@ function cont(){
       
     let total_val = count*elm.final_price;
     console.log(total_val);
+
+    ////total val////
       total.innerText = `Rs.${total_val}.00`;
       
      
-  
+    ////sub-total value////
       document.querySelector("#show_sub").innerText = "";
       document.querySelector("#show_sub").innerText = `Rs.${total_pr+total_val}.00 `;
      }
