@@ -145,7 +145,7 @@ else if(pin == ""){
     alert("Please before fill UPI Pin")
    }
    
-
+//added
 else{
     alert("Sorry ! invalid data")
 }
