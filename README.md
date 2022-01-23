@@ -14,6 +14,17 @@ In this project we have tried to clone the “Flatheads” website. We had build
 https://flatheads-clone-gamma.vercel.app/
  
 # Snapshots
+https://miro.medium.com/max/3840/1*TiW4JrnWoprdStM_XdynnQ.png
+![image](https://user-images.githubusercontent.com/67849097/150683006-8fb675e4-8e66-4196-a3a7-f08c27a18adc.png)
+https://miro.medium.com/max/3840/1*VsdB1JC40Y9SStTgL2zKiw.png
+https://miro.medium.com/max/3840/1*UbDXwbVurPnStI1re4U6xw.png
+https://miro.medium.com/max/3840/1*JlxII4hl-U5yIlFpn2o-NQ.png
+https://miro.medium.com/max/3840/1*_lXMTO39IAYE7-ssh9imQA.png
+![image](https://user-images.githubusercontent.com/67849097/150683070-64c62b59-8369-43d8-a0ec-058995d78425.png)
+![image](https://user-images.githubusercontent.com/67849097/150683087-20120e3b-19d4-4435-93ad-502771d6489c.png)
+![image](https://user-images.githubusercontent.com/67849097/150683100-16d448bb-bdb6-4dd3-812e-2a4614785519.png)
+![image](https://user-images.githubusercontent.com/67849097/150683118-d706029e-9f0a-4596-a87b-d350cbb48199.png)
+
 
 
 
