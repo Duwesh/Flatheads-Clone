@@ -64,11 +64,20 @@ div.second_txt{
 
 
 /* css for 4th  */
-.div4 .bttn{
-    border-radius: 1px;
-    padding: 10px 30px;
-    background-color:rgb(253,211,0);
-    font-weight: bold;
+.div4 .bttn{  line-height: 1.42;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 11px 20px;
+  min-width: 90px;
+  cursor: pointer;
+  border: none;
+  background-color: #fdd301;
+  margin-bottom: 2%;
+  transition: border-bottom 0.3 ease;
 
 }
 
@@ -225,10 +234,20 @@ grid-template-rows: repeat(1,520px);
       border: 1px solid yellow;
   } */
   .div7 .bttn{
-      border-radius: 1px;
-      padding: 10px 30px;
-      background-color:rgb(253,211,0);
-      font-weight: bold;
+        line-height: 1.42;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 11px 20px;
+  min-width: 90px;
+  cursor: pointer;
+  border: none;
+  background-color: #fdd301;
+  margin-bottom: 2%;
+  transition: border-bottom 0.3 ease;
   }
 /* End css for 7th  */
 
@@ -346,11 +365,20 @@ grid-template-rows: repeat(1,520px);
   .div13 > div{
       border: 0px solid yellow;
   }
-  .bttn{
-      border-radius: 1px;
-      padding: 10px 30px;
-      background-color:rgb(253,211,0);
-      font-weight: bold;
+  .bttn{  line-height: 1.42;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 11px 20px;
+  min-width: 90px;
+  cursor: pointer;
+  border: none;
+  background-color: #fdd301;
+  margin-bottom: 2%;
+  transition: border-bottom 0.3 ease;
   }
 /* End css for 13th  */
 
@@ -454,11 +482,20 @@ grid-template-rows: repeat(1,520px);
     font-weight: bold;
 }
 
-.div10 .btn{
-    border-radius: 1px;
-    padding: 10px 30px;
-    background-color:rgb(253,211,0);
-    font-weight: bold;
+.div10 .btn{  line-height: 1.42;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 11px 20px;
+  min-width: 90px;
+  cursor: pointer;
+  border: none;
+  background-color: #fdd301;
+  margin-bottom: 2%;
+  transition: border-bottom 0.3 ease;
 }
 
 .div13 .h3{
@@ -487,4 +524,37 @@ grid-template-rows: repeat(1,520px);
 
 .text-content{
     margin-left: 12%;
+}
+
+.btn-view{
+    
+  line-height: 1.42;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 11px 20px;
+  min-width: 90px;
+  cursor: pointer;
+  border: none;
+  background-color: #fdd301;
+  margin-bottom: 2%;
+  transition: border-bottom 0.3 ease;
+}
+
+.header{
+    border: 1px solid black;
+    position: sticky;
+    scroll-behavior: smooth;
+    width: 100%;
+    /* margin-bottom: 2%; */
+}
+.item{
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
