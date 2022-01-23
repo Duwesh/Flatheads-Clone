@@ -15,8 +15,8 @@ https://flatheads-clone-gamma.vercel.app/
  
 # Snapshots
 ![image](https://user-images.githubusercontent.com/67849097/150683219-017c3ee0-76bc-4d63-90ea-3dbb91a076cc.png)
-![image](https://user-images.githubusercontent.com/67849097/150683239-04931249-5198-417c-8982-c34080bcf5eb.png)
 ![image](https://user-images.githubusercontent.com/67849097/150683248-45e8219e-1c22-44a1-8800-7e21ce186b66.png)
+![image](https://user-images.githubusercontent.com/67849097/150683239-04931249-5198-417c-8982-c34080bcf5eb.png)
 ![image](https://user-images.githubusercontent.com/67849097/150683342-576e5b03-b06a-4cad-944d-d3577ff6789b.png)
 ![image](https://user-images.githubusercontent.com/67849097/150683006-8fb675e4-8e66-4196-a3a7-f08c27a18adc.png)
 ![image](https://user-images.githubusercontent.com/67849097/150683233-ac6902fd-724a-4be0-9494-a00ea1471938.png)
@@ -37,7 +37,7 @@ https://flatheads-clone-gamma.vercel.app/
 # Features
 1. You will be able to create your account using login and signup option, used API calls for validating user credentials.
 
-2. Used Reusable Components in langing page such it can be reused any other pages easily without repeatation.
+2. Used Reusable Components in landing page such that it can be reused in any other pages easily without repeatation.
 
 3. You can choose a product which you want to buy and add to cart section.
 
@@ -49,7 +49,7 @@ https://flatheads-clone-gamma.vercel.app/
 
 ## Instructions to Run the Code 
 
-- Clone my repository ``
+- Clone my repository `https://github.com/Duwesh/Flatheads-Clone.git`
 - Open that code in your VS code `index.html`
 - Open the `index.html` on Live server
 - Then you can Navigate through other pages from Landing page like `signin.html`, `cart.html`, `product.html` etc.
