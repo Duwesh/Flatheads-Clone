@@ -166,7 +166,7 @@
 }
 
 .menu-items li:hover .mega-menu {
-  top: 70px;
+  top: 86px;
   opacity: 1;
   visibility: visible;
 }
@@ -205,6 +205,14 @@ h5 {
   justify-content: space-between;
 }
 
+.users> i{
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.side-icons i{
+  font-size: 1.3rem;
+}
 /* https://cdn.shopify.com/s/files/1/0258/2485/4100/collections/Collection2_400x.jpg?v=1631079294 */
 /* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/Banner01_1_400x.png?v=1629264715 */
 /* //cdn.shopify.com/s/files/1/0258/2485/4100/collections/aurea-collection-banner-optimised_400x.jpg?v=1604423112 */

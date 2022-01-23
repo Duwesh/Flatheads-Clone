@@ -26,7 +26,7 @@ function navbar() {
   <nav class="list-header">
     <ul class="menu-items">
       <li>
-        <a href="#" class="menu-item bold">SHOP</a>
+        <a href="../products/products.html" class="menu-item bold">SHOP</a>
         <div class="mega-menu">
           <div class="content">
             <div class="col">
@@ -130,8 +130,8 @@ function navbar() {
       <li class="dropdown">
         <a href="../products/products.html" class="menu-item bold">NEW ARRIVALS</a>
         <ul class="dropdown-menu">
-          <li><a href="" class="menu-item">Luft - Super Lightweight</a></li>
-          <li><a href="" class="menu-item">Drift Bamboo Sliders</a></li>
+          <li><a href="../products/products.html" class="menu-item">Luft - Super Lightweight</a></li>
+          <li><a href="../products/products.html" class="menu-item">Drift Bamboo Sliders</a></li>
           <li>
             <a href="" class="menu-item">New Troos - WFH Bamboo Loafers</a>
           </li>
