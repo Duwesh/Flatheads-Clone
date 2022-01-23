@@ -36,7 +36,7 @@ https://flatheads-clone-gamma.vercel.app/
 # Features
 1. You will be able to create your account using login and signup option, used API calls for validating user credentials.
 
-2. Used Reusable Components in langing page such it can be reused any other pages easily without repeatation.
+2. Used Reusable Components in landing page such it can be reused any other pages easily without repeatation.
 
 3. You can choose a product which you want to buy and add to cart section.
 
