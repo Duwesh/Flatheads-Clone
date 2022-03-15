@@ -1,8 +1,6 @@
-### Flatheads-Clone
-This is clone of Flatheads.com, where we have used HTML, CSS and Advance Javascript to acheive this.
+## Flatheads-Clone
+This is clone of Flatheads.com, It is an e-commerce platform where users may purchase various types of sneakers. Where we have used HTML, CSS and Advance Javascript to acheive this.
 In this project we have tried to clone the “Flatheads” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
-
-# Flatheads-Website-Clone
 
 # Video link:
  #### we have shared a demo presentation of this project "Flatheads-Clone".
