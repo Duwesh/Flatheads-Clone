@@ -24,9 +24,6 @@ https://flatheads-clone-gamma.vercel.app/
 ![image](https://user-images.githubusercontent.com/67849097/150683118-d706029e-9f0a-4596-a87b-d350cbb48199.png)
 
 
-
-
-
 # Technology We Used :computer: 
 1. HTML5
 2. CSS3
